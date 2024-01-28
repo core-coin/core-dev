@@ -3,4 +3,6 @@ title: Introduction
 sidebar_position: 1
 ---
 
-The documentation for Core Rust client. WiP
+CorePass revolutionizes digital identity management by giving users full control over their personal data.
+
+Rust Core Client. WiP

@@ -10,8 +10,3 @@ This is an open-source community effort, so feel free to suggest new topics, add
 ## Development Modules
 
 If this is your first attempt at Core development, we recommend starting at the beginning and working your way through like a book.
-
-### Fundamental Topics
-
-- [ED448](/docs/ed448) – Core Blockchain's cryptography
-- [Twisted Edwards Curves](/docs/twisted-edwards-curves) – An introduction to Twisted Edwards Curves

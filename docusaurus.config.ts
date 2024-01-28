@@ -109,7 +109,7 @@ const config: Config = {
               };
             }, {}),
           },
-          remarkPlugins: [
+          /*remarkPlugins: [
             math,
             subsuper,
           ],
@@ -121,7 +121,7 @@ const config: Config = {
                 strict: 'newLineInDisplayMode',
               },
             ],
-          ],
+          ],*/
         },
         blog: false,
         theme: {
