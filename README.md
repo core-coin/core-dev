@@ -1,10 +1,6 @@
-# CorePass Developer Hub
+# Core Developer Portal
 
-Welcome to the CorePass Developer Hub! This repository hosts the documentation for CorePass, a revolutionary platform for digital identity management that empowers users with full control over their personal data. Our documentation is built using Docusaurus system.
-
-## About CorePass
-
-CorePass is dedicated to revolutionizing the way digital identities are managed. By giving users control over their personal data, CorePass paves the way for a more secure and privacy-respecting digital environment.
+Welcome to the Core Developer Portal!
 
 ## Getting Started with the Documentation
 
@@ -22,13 +18,13 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/<your-username>/corepass-docs.git
+   git clone https://github.com/<your-username>/core-dev.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd corepass-docs
+   cd core-dev
    ```
 
 3. Install the dependencies:
@@ -63,7 +59,7 @@ npm run deploy
 
 ## Contributing
 
-We welcome contributions to the CorePass Developer Hub! Whether it's improving the documentation, fixing bugs, or adding new features, your contributions are greatly appreciated.
+We welcome contributions to the Core Dev Developer Hub! Whether it's improving the documentation, fixing bugs, or adding new features, your contributions are greatly appreciated.
 
 ## License
 
@@ -72,7 +68,3 @@ This project is licensed under the CORE license - see the [LICENSE](LICENSE) fil
 ## Support
 
 For support, please open an issue in the GitHub issue tracker.
-
-## Stay in Touch
-
-For the latest updates and news about CorePass, follow us on social media or visit our [official website](https://corepass.net).

@@ -1,6 +1,8 @@
 ---
 title: Introduction
-sidebar_position: 1
+sitebar_position: 1
 ---
 
-The documentation for Core Rust client. WiP
+This documentation is designed to help you build with the Core Blockchain ecosystem. It covers Core as a concept, its cryptography, explains the Core tech stack, and documents advanced topics for more complex applications and use cases.
+
+Rust Core Client. WiP
