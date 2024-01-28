@@ -1,0 +1,10 @@
+{
+  "label": "Twisted Edwards Curves",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Core Blockchain Twisted Edwards Curves.",
+    "title": "Twisted Edwards Curves"
+  },
+  "collapsible": false
+}

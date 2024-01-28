@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #46b549;
+  --ifm-color-primary-dark: #3fa342;
+  --ifm-color-primary-darker: #3b9a3e;
+  --ifm-color-primary-darkest: #317f33;
+  --ifm-color-primary-light: #56be59;
+  --ifm-color-primary-lighter: #5fc162;
+  --ifm-color-primary-lightest: #7bcc7d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #46b549;
+  --ifm-color-primary-dark: #3fa342;
+  --ifm-color-primary-darker: #3b9a3e;
+  --ifm-color-primary-darkest: #317f33;
+  --ifm-color-primary-light: #56be59;
+  --ifm-color-primary-lighter: #5fc162;
+  --ifm-color-primary-lightest: #7bcc7d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+a.header-github-link {
+  background-image: url('/img/github.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 4px;
+}
+
+html[data-theme='dark'] a.header-github-link {
+  background-image: url('/img/github-light.svg');
+}
+
+a.header-github-link > svg {
+  display: none;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #232e26;
+}
+
+div.rselect__control {
+  border-color: var(--ifm-color-emphasis-400);
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+div.rselect__menu {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+div.rselect__single-value {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__multi-value {
+  background-color: var(--ifm-color-emphasis-200);
+}
+div.rselect__multi-value__label {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__multi-value__remove {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__input {
+  color: var(--ifm-font-color-base);
+}
+div.rselect__option--is-focused {
+  background-color: var(--ifm-color-emphasis-200);
+}
