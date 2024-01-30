@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Energy
 sidebar_position: 1
 ---
 

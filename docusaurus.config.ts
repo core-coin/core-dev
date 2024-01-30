@@ -4,7 +4,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 import math from "remark-math";
 import katex from "rehype-katex";
-import subsuper from "remark-sub-super";
 
 import versions from "./versions.json";
 
@@ -109,9 +108,8 @@ const config: Config = {
               };
             }, {}),
           },
-          /*remarkPlugins: [
+          remarkPlugins: [
             math,
-            subsuper,
           ],
           rehypePlugins: [
             [
@@ -121,7 +119,7 @@ const config: Config = {
                 strict: 'newLineInDisplayMode',
               },
             ],
-          ],*/
+          ],
         },
         blog: false,
         theme: {

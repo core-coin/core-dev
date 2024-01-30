@@ -24,8 +24,7 @@
     "react-dom": "^18.2.0",
     "react-select": "^5.8.0",
     "rehype-katex": "^7.0.0",
-    "remark-math": "^6.0.0",
-    "remark-sub-super": "^1.0.20"
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.1.1",
