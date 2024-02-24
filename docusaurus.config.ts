@@ -2,6 +2,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+import fediverseUser from "remark-fediverse-user";
+import remarkCorepass from "remark-corepass";
+import remarkCorebc from "remark-corebc";
 import math from "remark-math";
 import katex from "rehype-katex";
 
@@ -110,6 +113,9 @@ const config: Config = {
           },
           remarkPlugins: [
             math,
+            fediverseUser,
+            remarkCorepass,
+            remarkCorebc,
           ],
           rehypePlugins: [
             [
@@ -149,6 +155,7 @@ const config: Config = {
         content:
           "core, blockchain, core blockchain, core coin, corecoin, core dev, core developer, core developer hub, core dev hub, core developer portal, core dev portal, core developer documentation, core dev docs, core developer docs, core developer information, core dev information, core developer info, core dev info, core developer resources, core hub",
       },
+      { property: 'ican:xcb', content: 'cb57bbbb54cdf60fa666fd741be78f794d4608d67109' },
       { name: "theme-color", content: "#3b9a3e"},
       { name: "apple-mobile-web-app-capable", content: "yes"},
       { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent"},
