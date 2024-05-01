@@ -25,10 +25,10 @@
     "react-dom": "^18.3.1",
     "react-select": "^5.8.0",
     "rehype-katex": "^7.0.0",
-    "remark-corebc": "^0.2.1",
-    "remark-corepass": "^0.2.0",
-    "remark-currency-formatter": "^0.2.0",
-    "remark-fediverse-user": "^0.2.0",
+    "remark-corebc": "^0.2.2",
+    "remark-corepass": "^0.2.1",
+    "remark-currency-formatter": "^0.2.1",
+    "remark-fediverse-user": "^0.2.1",
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
